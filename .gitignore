@@ -1,0 +1,44 @@
+# Python compiled files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables and secrets
+.env
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.cache
+*.bak
+*.swp
+
+# Dependency directories
+node_modules/
+dist/
+build/
+
+# Flask-specific
+instance/
+instance/*.db
